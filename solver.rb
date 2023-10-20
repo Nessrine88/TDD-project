@@ -4,7 +4,9 @@ def factorial(n)
     elsif n == 0
       1
     else
-      # Implement the factorial calculation for positive integers
+      result = 1
+      (1..n).each { |i| result *= i }
+      result
     end
   end
   
