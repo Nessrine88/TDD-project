@@ -10,6 +10,10 @@ def factorial(n)
       result
     end
   end
+
+def reverse(word)
+    return word.reverse
+  end
   
 end
   
