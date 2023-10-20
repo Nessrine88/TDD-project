@@ -1,3 +1,4 @@
+class Solver
 def factorial(n)
     if n < 0
       raise ArgumentError, 'Input must be a non-negative integer'
@@ -9,4 +10,6 @@ def factorial(n)
       result
     end
   end
+  
+end
   

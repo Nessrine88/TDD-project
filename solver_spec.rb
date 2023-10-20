@@ -25,3 +25,14 @@ describe 'factorial' do
     end
   end
   
+  #test for reverse method
+  # reverse_spec.rb
+
+require_relative 'reverse'
+
+describe 'reverse' do
+  it 'returns "olleh" for input "hello"' do
+    expect(reverse("hello")).to eq("olleh")
+  end
+end
+
