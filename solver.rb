@@ -16,4 +16,17 @@ def reverse(word)
   end
   
 end
+
+# reverse_spec.rb
+
+describe 'reverse' do
+    it 'returns "world" for input "dlrow"' do
+      expect(reverse("dlrow")).to eq("world")
+    end
+  
+    it 'returns "racecar" for input "racecar"' do
+      expect(reverse("racecar")).to eq("racecar")
+    end
+  end
+  
   
