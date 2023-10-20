@@ -26,8 +26,6 @@ describe 'factorial' do
   end
   
   #test for reverse method
-  # reverse_spec.rb
-
 require_relative 'reverse'
 
 describe 'reverse' do
