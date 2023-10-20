@@ -1,4 +1,4 @@
-require 'solver'
+require_relative 'solver'
 
 describe 'factorial' do
   it 'returns 1 for input 0' do
