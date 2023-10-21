@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative 'solver'
+require_relative '../solver'
 
 describe Solver do
   let(:solver) { Solver.new }
@@ -24,11 +24,11 @@ describe Solver do
 
   describe '#reverse' do
     it 'returns "world" for input "dlrow"' do
-      expect(solver.reverse("dlrow")).to eq("world")
+      expect(solver.reverse('dlrow')).to eq('world')
     end
 
     it 'returns "racecar" for input "racecar"' do
-      expect(solver.reverse("racecar")).to eq("racecar")
+      expect(solver.reverse('racecar')).to eq('racecar')
     end
   end
 

@@ -1,13 +1,13 @@
 class Solver
   # Factorial
-  def factorial(n)
-    if n < 0
+  def factorial(number)
+    if number.negative?
       raise ArgumentError, 'Input must be a non-negative integer'
-    elsif n == 0
+    elsif number.zero?
       1
     else
       result = 1
-      (1..n).each { |i| result *= i }
+      (1..number).each { |i| result *= i }
       result
     end
   end
@@ -20,7 +20,7 @@ class Solver
     end
     reversed_word
   end
-  
+
   # FizzBuzz
   def fizzbuzz(number)
     if (number % 3).zero? && (number % 5).zero?
