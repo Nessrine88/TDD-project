@@ -34,19 +34,19 @@ describe Solver do
 
   describe 'fizzbuzz' do
     it 'when N is divisible by 3, return "fizz"' do
-      expect(new_solver.fizzbuzz(9)).to eq('fizz')
+      expect(solver.fizzbuzz(9)).to eq('fizz')
     end
 
     it 'when N is divisible by 5, return "buzz"' do
-      expect(new_solver.fizzbuzz(10)).to eq('buzz')
+      expect(solver.fizzbuzz(10)).to eq('buzz')
     end
 
     it 'when N is divisible by 3 and 5, return "fizzbuzz"' do
-      expect(new_solver.fizzbuzz(15)).to eq('fizzbuzz')
+      expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
 
     it 'any other case, return N as a string (e.g. say N is 7 then return "7")' do
-      expect(new_solver.fizzbuzz(7)).to eq('7')
+      expect(solver.fizzbuzz(7)).to eq('7')
     end
   end
 end
